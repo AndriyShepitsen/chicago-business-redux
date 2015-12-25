@@ -18,6 +18,7 @@ module.exports = {
   context: path.resolve(__dirname, '..'),
   entry: {
     'main': [
+      './src/theme/skeleton.scss',
       './src/client.js'
     ]
   },
